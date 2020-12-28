@@ -26,21 +26,24 @@ h2 {
 header {
   background-color: #0c3642;
   color: #ffffff;
+  display: grid;
+  align-items: flex-end;
+  grid-template-columns: 1fr 3fr;
+  padding: 14px 100px 0 100px;
 }
 
 header a {
   color: white;
-  padding: 25px;
-}
-header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-evenly;
+  padding: 26px;
 }
 
 .logo {
-  width: 237, 25px;
   height: 96px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 nav li {
@@ -55,7 +58,14 @@ nav a {
   text-decoration: underline;
 }
 
+.search {
+  padding-right: 8px;
+}
+
 ul {
   margin-block-end: auto;
-  margin-block-start: auto;
+}
+
+.fav-and-shopping li:last-child {
+  margin-left: 12px;
 }
