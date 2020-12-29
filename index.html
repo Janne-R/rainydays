@@ -6,6 +6,7 @@
     <meta name="description" content="Rain jackets for the active men and women" />
     <title>Rainydays</title>
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b83f6c7ccb.js" crossorigin="anonymous"></script>
   </head>
@@ -34,16 +35,31 @@
       <h2>Rain jackets for the outdoorsy and active man and woman</h2>
       </div>
       <div class="hero-cta">
-      <button class="button-men" type="button">
-        Shop Men
-      </button>
-      <button class="button-woman" type="button">
-        Shop Woman
-      </button>
-    </div>
+        <a href="men.html" class="button-men">Shop men</a>
+        <a href="woman.html"class="button-woman">Shop Woman</a>
+      </div>
   </section> 
   </main>
   <footer>
+   <div>
+     <p>Subscribe to Rainydays newsletter via email</p>
+     <p>Enter your email address and press subscribe</p>
+     <form action="subscribe.php" method="POST">
+       <input placeholder="email address" type="email" id="email" name="email"/>
+       <input type="submit" value="Subscribe"/>
+      </form>
+    </div>
+    <div>
+<ul>
+  <li><a href="contact.html">Contact us</a></li>
+  <li><a href="about.html">About Rainydays</a></li>
+  <li>Sizing guide</li>
+  <li>Follow us on social media</li>
+  <li><i class="fab fa-instagram"></i></li>
+  <li><i class="fab fa-twitter"></i></li>
+  <li><i class="fab fa-facebook-f"></i></li>
+</ul>
+    </div>
   </footer>
   </body>
 </html>
