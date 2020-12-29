@@ -13,6 +13,7 @@ h5,
 h6 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #0c3642;
+  margin: 0px;
 }
 
 h1 {
@@ -30,6 +31,11 @@ header {
   align-items: flex-end;
   grid-template-columns: 1fr 3fr;
   padding: 14px 100px 0 100px;
+}
+
+.logo-link {
+  padding: 0px;
+  height: 96px;
 }
 
 header a {
@@ -68,4 +74,53 @@ ul {
 
 .fav-and-shopping li:last-child {
   margin-left: 12px;
+}
+
+/* home-page */
+.home-hero {
+  background-image: url(../images/lady-yellow-rain.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 62%;
+  min-height: 75vh;
+  padding-top: 134px;
+}
+
+.home-hero h1,
+h2 {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+.welcome-content {
+  background-color: #0c3642;
+  padding: 10px;
+}
+
+.button-men {
+  background-color: #806320;
+  color: white;
+  font-size: 3em;
+  width: 500px;
+  height: 155px;
+  border-radius: 100px;
+  padding: 30px 60px;
+}
+
+.button-woman {
+  background-color: #586e30;
+  color: #ffffff;
+  font-size: 3em;
+  width: 500px;
+  height: 155px;
+  border-radius: 100px;
+  padding: 30px 60px;
+}
+
+.hero-cta {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 130px;
 }
