@@ -1,6 +1,6 @@
 :root {
+  --color-primary: #0c3642;
+  --color-secondary: #ffffff;
   --body-font: arial;
-  --body-font-color: #535353;
   --header-font: Georgia;
-  --header-font-color: #0c3642;
 }

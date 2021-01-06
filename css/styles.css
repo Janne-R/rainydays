@@ -28,7 +28,7 @@ h2 {
 
 header {
   background-color: #0c3642;
-  color: #ffffff;
+  color: var(--body-font-color);
   display: grid;
   align-items: flex-end;
   grid-template-columns: 1fr 3fr;
