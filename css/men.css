@@ -9,8 +9,12 @@
   align-items: center;
 }
 
-.man-hero h1,
-h2 {
+.man-hero h1 {
   color: #ffffff;
   margin-left: 100px;
+}
+
+.product-list {
+  background: transparent linear-gradient(130deg, #95b7d9 0%, #4b5c6d 100%) 0%
+    0% no-repeat padding-box;
 }
