@@ -3,7 +3,7 @@
 body {
   font-family: var(--body-font), Helvetica, sans-serif;
   font-size: 18px;
-  color: var(--body-font-color);
+  color: var(--color-secondary);
   margin: 0;
 }
 
@@ -14,7 +14,7 @@ h4,
 h5,
 h6 {
   font-family: var(--header-font), "Times New Roman", Times, serif;
-  color: var(--header-font-color);
+  color: var(--color-primary);
   margin: 0px;
 }
 
@@ -28,7 +28,7 @@ h2 {
 
 header {
   background-color: #0c3642;
-  color: var(--body-font-color);
+  color: var(--color-secondary);
   display: grid;
   align-items: flex-end;
   grid-template-columns: 1fr 3fr;
@@ -84,9 +84,55 @@ footer {
   padding-bottom: 30px;
 }
 
+footer p,
+footer strong,
+footer li {
+  padding: 8px 0;
+}
+
+footer i {
+  margin-right: 8px;
+}
+
 .footer-content {
   display: flex;
   justify-content: space-between;
   background-color: #1d76a1;
-  padding: 14px 100px 0px 100px;
+  padding: 14px 100px 8px 100px;
+  font-size: 14px;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer a {
+  color: var(--body-font);
+  text-decoration-line: none;
+}
+
+form input {
+  border: solid white 0.5px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+footer form input:first-child {
+  background: transparent;
+  margin-right: 12px;
+}
+
+footer form input:last-child {
+  background: #94b8d8;
+}
+
+input::placeholder {
+  color: var(--color-secondary);
+}
+
+input[type="submit"] {
+  color: var(--color-secondary);
+  text-transform: uppercase;
 }
