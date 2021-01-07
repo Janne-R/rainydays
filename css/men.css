@@ -1,4 +1,14 @@
+main {
+  background: transparent linear-gradient(130deg, #95b7d9 0%, #4b5c6d 100%);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+    "hero hero hero"
+    ". productList .";
+}
+
 .man-hero {
+  grid-area: hero;
   background-image: url(../images/kal-visuals-swFhUaDUVl0-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,6 +25,17 @@
 }
 
 .product-list {
-  background: transparent linear-gradient(130deg, #95b7d9 0%, #4b5c6d 100%) 0%
-    0% no-repeat padding-box;
+  grid-area: productList;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px;
+}
+.products p {
+  color: var(--color-primary);
+}
+.products {
+  background-color: white;
+  width: 414px;
+  height: 655px;
+  border-radius: 37px;
 }
