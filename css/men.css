@@ -29,13 +29,29 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 56px;
+  margin: 56px 0px 56px 0px;
 }
-.products p {
+.products-men p {
   color: var(--color-primary);
 }
-.products {
+.products-men {
   background-color: white;
-  width: 414px;
-  height: 655px;
   border-radius: 37px;
+  padding: 30px 45px;
+}
+
+.products-men p:last-child {
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.products-men h2 {
+  margin-top: 16px;
+}
+
+.products-men i {
+  color: #7b6428;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
 }
