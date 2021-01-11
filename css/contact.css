@@ -1,0 +1,31 @@
+main {
+  background: transparent linear-gradient(151deg, #95b7d9 0%, #4b5c6d 100%) 0%
+    0% no-repeat padding-box;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-info {
+  background: var(--color-secondary);
+  border-radius: 60px;
+  text-align: center;
+  padding: 30px 45px;
+  max-width: 750px;
+  margin: 25px 0px 25px 0px;
+}
+
+.contact-info p {
+  color: var(--color-primary);
+}
+
+.contact-info i {
+  color: var(--color-primary);
+  font-size: 150px;
+}
+
+.contact-info h1,
+.contact-info h2,
+.contact-info p {
+  margin: 26px;
+  margin-bottom: 50px;
+}

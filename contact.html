@@ -31,6 +31,33 @@
       </nav>
   </header>
   <main>
+    <section class="contact-info">
+      <i class="fas fa-question-circle"></i>
+      <h1>Have questions?</h1>
+      <h2>Do not hesitate to contact us!</h2>
+      <p>You can contact us using the contact form you find on this page or you can get in touch with us via email and/or phone.</p>
+      <p>Email: xxxxx@rainydays.no</p>
+      <p>Phone: +47 412 09 616</p>
+    </section>
+    <section>
+      <form action="submit.php" method="POST">
+        <div class="form-wrapper">
+           <label for="name">Name</label>
+           <input type="text" id="name" name="Name">
+           <label for="email"Email adress></label>
+           <input type="email" id="email" name="email">
+           <label for="tel">Phone number</label>
+           <input type="tel" id="tel" name="tel">
+        </div>
+        <div>
+           <label for="message">Message</label>
+           <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
+      <div>
+       <input type="submit" value="Submit" class="button-small">
+      </div>
+      </form> 
+    </section>
   </main>
   <footer>
     <div class="footer-content">

@@ -30,11 +30,11 @@ h2 {
   background-color: #806320;
   text-decoration-line: none;
   color: #ffffff;
-  font-size: 3em;
+  font-size: 2em;
   border-radius: 100px;
   text-align: center;
-  padding: 30px 0;
-  min-width: 500px;
+  padding: 25px 0;
+  min-width: 300px;
   height: max-content;
 }
 
@@ -42,10 +42,10 @@ h2 {
   background-color: #586e30;
   text-decoration-line: none;
   color: #ffffff;
-  font-size: 3em;
+  font-size: 2em;
   border-radius: 100px;
   text-align: center;
-  padding: 30px 0;
-  min-width: 500px;
+  padding: 25px 0;
+  min-width: 300px;
   height: max-content;
 }
