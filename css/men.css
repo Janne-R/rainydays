@@ -1,7 +1,7 @@
 main {
   background: transparent linear-gradient(130deg, #95b7d9 0%, #4b5c6d 100%);
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
   grid-template-areas:
     "hero hero hero"
     ". productList .";
@@ -24,12 +24,12 @@ main {
   margin-left: 100px;
 }
 
-.product-list {
+.product-list-men {
   grid-area: productList;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 56px;
-  margin: 56px 0px 56px 0px;
+  margin: 56px 0;
 }
 .products-men p {
   color: var(--color-primary);
@@ -38,6 +38,7 @@ main {
   background-color: white;
   border-radius: 37px;
   padding: 30px 45px;
+  box-shadow: 6px 3px 11px #00000093;
 }
 
 .products-men p:last-child {

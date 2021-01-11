@@ -1,0 +1,58 @@
+main {
+  background: transparent linear-gradient(130deg, #95b7d9 0%, #4b5c6d 100%);
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-areas:
+    "hero hero hero"
+    ". productList .";
+}
+
+.woman-hero {
+  grid-area: hero;
+  background-image: url(../images/shutterstock_1160034094.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 62%;
+  height: 89.5vh;
+  display: flex;
+  align-items: center;
+}
+
+.woman-hero h1 {
+  color: #ffffff;
+  margin-left: 100px;
+}
+
+.product-list-woman {
+  grid-area: productList;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px;
+  margin: 56px 0;
+}
+.products-woman p {
+  color: var(--color-primary);
+}
+.products-woman {
+  background-color: white;
+  border-radius: 37px;
+  padding: 30px 45px;
+  box-shadow: 6px 3px 11px #00000093;
+}
+
+.products-woman p:last-child {
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.products-woman h2 {
+  margin-top: 16px;
+}
+
+.products-woman i {
+  color: #5c6d35;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
