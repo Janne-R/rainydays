@@ -1,15 +1,8 @@
 main {
   background: #193541;
-  display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
-  grid-template-areas:
-    "hero hero hero"
-    ". about ."
-    "images images images";
 }
 
 .about-hero {
-  grid-area: hero;
   background-image: url(../images/nature.jpeg);
   background-size: cover;
   /* background-repeat and background position x, check if needed */
@@ -22,7 +15,9 @@ main {
 
 .about-hero h1 {
   color: #ffffff;
-  margin-left: 100px;
+  position: absolute;
+  left: 25px;
+  top: 200px;
 }
 
 .about p,
@@ -31,11 +26,17 @@ main {
 }
 
 .about {
-  grid-area: about;
+  display: flex;
+  justify-content: center;
+  padding: 0 25px;
+}
+
+.about-content-list {
+  max-width: 1000px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
-  margin: 56px 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin: 26px 0;
 }
 
 .about-content {
