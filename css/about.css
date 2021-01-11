@@ -1,0 +1,81 @@
+main {
+  background: #193541;
+  display: grid;
+  grid-template-columns: 1fr 15fr 1fr;
+  grid-template-areas:
+    "hero hero hero"
+    ". about ."
+    "images images images";
+}
+
+.about-hero {
+  grid-area: hero;
+  background-image: url(../images/nature.jpeg);
+  background-size: cover;
+  /* background-repeat and background position x, check if needed */
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 89.5vh;
+  display: flex;
+  align-items: center;
+}
+
+.about-hero h1 {
+  color: #ffffff;
+  margin-left: 100px;
+}
+
+.about p,
+i {
+  color: var(--color-primary);
+}
+
+.about {
+  grid-area: about;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  margin: 56px 0;
+}
+
+.about-content {
+  background-color: var(--color-secondary);
+  border-radius: 50px;
+  padding: 26px;
+  text-align: center;
+  width: 395px;
+  height: 375px;
+}
+
+.about-content h2 {
+  font-weight: bold;
+}
+
+.about-content i {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.images-section {
+  grid-area: images;
+  display: grid;
+  grid-template-columns: 1fr 15fr 1fr;
+  grid-template-areas: ". images .";
+  background: #dddddd;
+}
+
+.about-images {
+  grid-area: images;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  margin: 56px 0;
+}
+
+.images {
+  width: 395px;
+  object-fit: cover;
+  height: 375px;
+  object-position: center;
+  border-radius: 50px;
+}
