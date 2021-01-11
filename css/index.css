@@ -21,8 +21,11 @@ h2 {
 }
 
 .hero-cta {
+  max-width: 1000px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 40px;
   margin-top: 130px;
 }
 
