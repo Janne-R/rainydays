@@ -14,16 +14,21 @@ main {
 }
 
 .about-hero h1 {
-  color: #ffffff;
+  color: var(--color-primary);
   position: absolute;
   left: 25px;
   top: 200px;
 }
 .about-section {
+  padding: 14px 25px;
+}
+
+.about-list {
   background-color: var(--color-secondary);
   border-radius: 50px;
   max-width: 1000px;
   margin: auto;
+  padding: 25px;
 }
 
 .about p,
@@ -31,9 +36,19 @@ main {
   color: var(--color-primary);
 }
 
+.about p {
+  padding: 18px;
+  margin-bottom: 25px;
+}
+
+.about i {
+  display: flex;
+  justify-content: center;
+}
+
 .about h2 {
   text-align: center;
-  padding-top: 18px;
+  padding: 18px;
 }
 
 .images-section {
