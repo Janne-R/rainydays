@@ -1,0 +1,76 @@
+main {
+  background-color: #95b7d9;
+  padding: 25px;
+}
+
+.login-section {
+  color: var(--color-primary);
+  border-radius: 60px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+form input,
+form textarea {
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.sign-in {
+  background-color: #5c6d35;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.sign-in h2,
+.sign-in p {
+  margin: 28px;
+  color: var(--color-secondary);
+}
+
+.sign-in h2,
+.create-account h2 {
+  padding: 25px;
+}
+
+.create-account {
+  background-color: #ffffff;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.create-account i {
+  padding: 0 12px 12px 12px;
+  font-size: 25px;
+}
+
+.form-wrapper {
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.form-wrapper label {
+  text-align: left;
+}
+
+.button-small {
+  margin-bottom: 25px;
+  background-color: #5c6d35;
+  border-radius: 100px;
+  padding: 10px 100px;
+}
+
+.button-small-border {
+  margin-bottom: 25px;
+  background-color: transparent;
+  border: solid white 1px;
+  border-radius: 100px;
+  padding: 10px 100px;
+}
