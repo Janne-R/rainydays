@@ -5,13 +5,13 @@ main {
   justify-content: space-evenly;
 }
 
-.contact-info {
+.contact {
   background: var(--color-secondary);
   border-radius: 60px;
   text-align: center;
-  padding: 30px 45px;
-  max-width: 750px;
-  margin: 25px 0px 25px 0px;
+  max-width: 1000px;
+  margin: 25px;
+  display: flex;
 }
 
 .contact-info p {
@@ -20,12 +20,33 @@ main {
 
 .contact-info i {
   color: var(--color-primary);
-  font-size: 150px;
+  font-size: 100px;
+  padding: 25px;
 }
 
 .contact-info h1,
 .contact-info h2,
 .contact-info p {
-  margin: 26px;
-  margin-bottom: 50px;
+  margin: 28px;
+}
+
+form input {
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-wrapper {
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.button-small {
+  margin-bottom: 25px;
+  background-color: #3a749f;
+  border-radius: 100px;
+  padding: 10px 100px;
 }
