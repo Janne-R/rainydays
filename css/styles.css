@@ -142,3 +142,10 @@ input[type="submit"] {
   color: var(--color-secondary);
   text-transform: uppercase;
 }
+
+.button-small {
+  margin-bottom: 25px;
+  background-color: #3a749f;
+  border-radius: 100px;
+  padding: 10px 100px;
+}

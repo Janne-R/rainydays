@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rain jackets for the active men and women" />
+    <title>Rainydays</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/product-men.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b83f6c7ccb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/RainyDays_Logo.png_white.png" alt="A mountain with snow and the rainydays text below">
+      <nav>
+          <ul>
+              <li><a href="men.html">Men</a></li>
+              <li><a href="woman.html">Woman</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="login.html">Log in</a></li>
+              <li><a class="search" href="">Search</a><i class="fas fa-search"></i></li>
+          </ul>
+          <ul class="fav-and-shopping">
+            <li><i class="fas fa-heart"></i></li>
+            <li><i class="fas fa-shopping-cart"></i></li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="product-men-section"> 
+          <div class="product-img-men">
+              <img src="images/men portrait.png" alt="Blue mens rain jacket" />
+          </div>
+          <div class="product-info-men">
+              <div class="primary-info">
+                <h2>Helly Hansen</h2>
+                <p>Hiking jacket for men</p>
+              </div>
+              <div class="secendary-info">
+                <p>Waterproof and windproof rain jacket for men.</p>
+                <p>Perfect for hiking and outdoor use. Comes in two colors</p>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p>(2)</p>
+              </div>
+              <section>
+                <form action="/index.html">
+                    <div class="man-size">
+                        <label for="size">Choose a size:</label>
+                        <select id="size" name="size">
+                          <option value="s">S</option>
+                          <option value="m">M</option>
+                          <option value="l" selected>L</option>
+                          <option value="xl">XL</option>
+                          <option value="xxl">XXL</option>
+                        </select>
+                    </div>
+                    <div class="man-color">
+                        <div class="blue-color">
+                            <input type="radio" id="blue" name="color" value="blue" />
+                            <label for="blue">Blue</label>
+                        </div>
+                        <div class="green-color">
+                            <input type="radio" id="green" name="color" value="green" />
+                            <label for="green">Green</label>
+                        </div>
+                    </div>
+                    <input class="button-small" type="submit" value="Add to bag" />
+                  </form>
+              </section>
+            </section>
+            <section class="reviews">
+                  <h2>Reviews (2)</h2>
+                  <div class="reviews-bar">
+                      <p>Excellent</p>
+                      <p>Great</p>
+                  </div>
+                  <div class="stars">
+                    <i class="fas fa-user-circle"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Love this product.</p>
+                  </div>
+                  <div>
+                    <i class="fas fa-user-circle"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <p>Good jacket for this price, keeps me warn and dry.</p>   
+                  </div>
+            </section>
+        
+          </div>
+     
+    </main>
+  <footer>
+    <div class="footer-content">
+      <div class="left-content">
+        <div>
+          <strong>Subscribe to Rainydays newsletter via email</strong> 
+          <p>Enter your email address and press subscribe</p>
+        </div>
+          <form action="subscribe.php" method="POST">
+            <input placeholder="Email address" type="email" id="email" name="email"/>
+            <input type="submit" value="Subscribe"/>
+          </form>
+      </div>
+      <div>
+        <ul>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="about.html">About Rainydays</a></li>
+          <li>Sizing guide</li>
+          <li>Follow us on social media</li>
+        </ul>
+        <div>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-f"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
