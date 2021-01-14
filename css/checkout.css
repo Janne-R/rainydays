@@ -5,8 +5,10 @@ main {
   margin: auto;
 }
 
-.checkout-info {
+.payment-form {
   background: #dddddd;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .checkout-details h1,
@@ -27,7 +29,6 @@ main {
 .checkout-details i {
   color: var(--color-primary);
 }
-
 .payment-details {
   color: var(--color-primary);
 }
@@ -37,10 +38,4 @@ form input {
   border-radius: 5px;
   margin: 10px 0;
   padding: 10px;
-}
-.form-wrapper {
-  color: var(--color-primary);
-  display: flex;
-  flex-direction: column;
-  padding: 25px;
 }

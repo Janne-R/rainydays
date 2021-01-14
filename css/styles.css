@@ -134,7 +134,7 @@ footer form input:last-child {
   background: #94b8d8;
 }
 
-input::placeholder {
+footer input::placeholder {
   color: var(--color-secondary);
 }
 
