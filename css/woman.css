@@ -44,6 +44,7 @@ main {
   border-radius: 37px;
   padding: 30px 45px;
   box-shadow: 6px 3px 11px #00000093;
+  text-decoration: none;
 }
 
 .products-woman p:last-child {
