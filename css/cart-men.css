@@ -48,8 +48,22 @@ form input {
   align-items: flex-end;
 }
 
+label {
+  margin-right: 5px;
+}
+
 .cart-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.cart-info :first-child,
+.cart-info :last-child {
+  font-size: 22px;
+}
+
+.cart-info :nth-child {
+  color: #0c3642cc;
+  font-size: 18px;
 }
