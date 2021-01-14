@@ -1,0 +1,37 @@
+main {
+  padding: 25px;
+}
+
+section {
+  background-color: #95b7d9;
+  color: var(--color-primary);
+  border-radius: 60px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 83px;
+}
+
+main i {
+  font-size: 152px;
+  display: flex;
+  justify-content: center;
+}
+
+main h1,
+main p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+section i,
+section h1,
+section p,
+section a {
+  padding-bottom: 25px;
+}
