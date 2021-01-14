@@ -1,6 +1,8 @@
 main {
   color: var(--color-primary);
   padding: 25px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .shopping-cart h1 {
@@ -18,11 +20,6 @@ form input {
   border-radius: 5px;
   margin: 10px 0;
   padding: 10px;
-}
-
-.shopping-cart {
-  max-width: 1000px;
-  margin: auto;
 }
 
 .shopping-cart-items {
@@ -58,12 +55,17 @@ label {
   justify-content: center;
 }
 
+.cart-info :nth-child(2) {
+  color: #0c3642cc;
+  font-size: 18px;
+}
+
 .cart-info :first-child,
 .cart-info :last-child {
   font-size: 22px;
 }
 
-.cart-info :nth-child {
-  color: #0c3642cc;
-  font-size: 18px;
+.checkout-info {
+  display: flex;
+  justify-content: space-between;
 }
