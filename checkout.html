@@ -41,13 +41,13 @@
 <section class="payment-details">
     <form class="payment-form" action="submit.php" method="POST">
      
-        <div>
+        <div class="personal-info"> 
           <h2>Billing adress</h2>
          <label for="fname">Full name</label>
          <input type="text" id="fname" name="name" placeholder="Full name" />
          <label for="email">Email</label>
          <input type="text" id="email" name="email" placeholder="Example@mail.com" />
-        <div>
+        <div class="one-line">
          <div>
          <label for="adr">Address</label>
          <input type="text" id="adr" name="adress" placeholder="Street adress" />
@@ -60,16 +60,8 @@
         <label for="city">City</label>
          <input type="text" id="city" name="city" placeholder="City">
         </div>
-
-        <div>
+        <div class="billing-info">
           <h2>Payment</h2>
-          <label for="fname">Accepted Cards</label>
-          <div>
-          <i class="fa fa-cc-visa" style="color:navy;"></i>
-          <i class="fa fa-cc-amex" style="color:blue;"></i>
-          <i class="fa fa-cc-mastercard" style="color:red;"></i>
-          <i class="fa fa-cc-discover" style="color:orange;"></i>
-          </div>
           <label for="cname">Name on card</label>
           <input type="text" id="cname" name="cardname" placeholder="Name on card">
           <label for="ccnum">Credit card number</label>
@@ -77,8 +69,8 @@
           <label for="expmonth"> Exp month</label>
           <input type="text" id="expmonth" name="expmonth" placeholder="Expiration month">
        
-        <div>
-          <div>
+        <div class="one-line">
+          <div> 
             <label for="expyear">Exp year</label>
             <input type="text" id="expyear" name="expyear" placeholder="Expiration year">
           </div>

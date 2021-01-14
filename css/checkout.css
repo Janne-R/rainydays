@@ -33,9 +33,33 @@ main {
   color: var(--color-primary);
 }
 
+.payment-details h2 {
+  padding-bottom: 25px;
+}
+
 form input {
   border: 1px solid var(--color-primary);
   border-radius: 5px;
   margin: 10px 0;
   padding: 10px;
+}
+
+.personal-info,
+.billing-info {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.one-line {
+  display: flex;
+}
+
+.button-small {
+  margin-top: 25px;
+}
+
+label,
+.one-line {
+  margin-top: 10px;
 }
