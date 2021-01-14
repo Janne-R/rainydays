@@ -8,7 +8,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <link href="css/checkout-men.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b83f6c7ccb.js" crossorigin="anonymous"></script>
   </head>
@@ -31,22 +31,67 @@
       </nav>
     </header>
     <main>
+        <section class="checkout-details">
+            <h1>Check out</h1>
+            <i class="far fa-credit-card"></i>
+            <h2>$1 797</h2>
+        </section>
+
+        <div class="checkout-info">
 <section class="payment-details">
-    <h1>Your payment-details</h1>
     <form action="submit.php" method="POST">
-      <div>
-         <label for="name">Name</label>
-         <input type="text" id="name" name="name">
-         <label for="card number">Card number</label>
-         <input type="number" id="number" name="number">
-         <label for="expiration date">Expiration (mm/yy)</label>
-         <input type="number" id="expiration" name="expiration">
-         <label for="security code">Security Code</label>
-         <input type="number" id="security Code" name="security Code">
+      <div class="form-wrapper">
+        <div>
+          <h2>Billing adress</h2>
+         <label for="fname">Full name</label>
+         <input type="text" id="fname" name="name" placeholder="Janne Ringdal">
+         <label for="email">Email</label>
+         <input type="text" id="email" name="email" placeholder="janne@example.com">
+        <div>
+         <div>
+         <label for="adr">Address</label>
+         <input type="text" id="adr" name="adress" placeholder="Street ex 1">
+        </div> 
+        <div>
+         <label for="zip">Zip</label>
+         <input type="text" id="zip" name="zip" placeholder="5239">
+        </div>
+      </div>
+        <label for="city">City</label>
+         <input type="text" id="city" name="city" placeholder="Bergen">
+        </div>
+
+        <div>
+          <h2>Payment</h2>
+          <label for="fname">Accepted Cards</label>
+          <div>
+          <i class="fa fa-cc-visa" style="color:navy;"></i>
+          <i class="fa fa-cc-amex" style="color:blue;"></i>
+          <i class="fa fa-cc-mastercard" style="color:red;"></i>
+          <i class="fa fa-cc-discover" style="color:orange;"></i>
+          </div>
+          <label for="cname">Name on card</label>
+          <input type="text" id="cname" name="cardname" placeholder="Janne Ringdal">
+          <label for="ccnum">Credit card number</label>
+          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+          <label for="expmonth"> Exp month</label>
+          <input type="text" id="expmonth" name="expmonth" placeholder="January">
+        </div>
+        <div>
+          <div>
+            <label for="expyear">Exp year</label>
+            <input type="text" id="expyear" name="expyear" placeholder="2020">
+          </div>
+          <div>
+            <label for="cvv">CVC</label>
+            <input type="text" id="cvc" name="cvc" placeholder="123">
+          </div>
+        </div>
       </div>
       </form>
      <input type="submit" value="Pay now" class="button-small">
   </section>
+</div>
   </main>
   <footer>
     <div class="footer-content">

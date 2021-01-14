@@ -1,0 +1,46 @@
+main {
+  color: var(--color-primary);
+  padding: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.checkout-info {
+  background: #dddddd;
+}
+
+.checkout-details h1,
+.checkout-details h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.checkout-details i {
+  display: flex;
+  justify-content: center;
+  font-size: 86px;
+  margin: 25px;
+  box-shadow: 5px 1;
+}
+
+.checkout-details i {
+  color: var(--color-primary);
+}
+
+.payment-details {
+  color: var(--color-primary);
+}
+
+form input {
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+.form-wrapper {
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
