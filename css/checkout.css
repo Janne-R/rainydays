@@ -37,7 +37,7 @@ main {
   padding-bottom: 25px;
 }
 
-form input {
+.payment-form input {
   border: 1px solid var(--color-primary);
   border-radius: 5px;
   margin: 10px 0;

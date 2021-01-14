@@ -13,7 +13,7 @@ main {
   grid-template-columns: 1fr 1fr;
 }
 
-form input,
+.form-wrapper input,
 form textarea {
   border: 1px solid var(--color-primary);
   border-radius: 5px;
