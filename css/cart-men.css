@@ -68,4 +68,15 @@ label {
 .checkout-info {
   display: flex;
   justify-content: space-between;
+  margin-top: 25px;
+}
+
+.total-price :first-child {
+  color: #0c3642cc;
+  font-size: 18px;
+}
+
+.total-price :nth-child(2) {
+  font-size: 22px;
+  font-weight: bold;
 }
