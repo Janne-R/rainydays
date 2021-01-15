@@ -86,4 +86,7 @@
   .primary-info {
     margin: 12px 0;
   }
+
+  .reviews-one, .reviews-two {
+    grid-template-columns: 1fr 1fr 1fr;
 }
