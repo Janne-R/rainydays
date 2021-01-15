@@ -63,3 +63,8 @@ label,
 .one-line {
   margin-top: 10px;
 }
+
+main form {
+  display: flex;
+  justify-content: flex-end;
+}
