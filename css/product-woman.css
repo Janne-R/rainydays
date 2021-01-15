@@ -39,6 +39,7 @@ main {
 
 .product-img-woman img {
   margin-left: 14px;
+  max-width: 75%;
 }
 
 .woman-color {

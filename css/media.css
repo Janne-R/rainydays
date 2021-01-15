@@ -21,6 +21,26 @@
   .product-list-woman {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /*product-specific page*/
+
+  .product-men-section,
+  .product-woman-section {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .product-img-men img,
+  .product-img-woman img {
+    max-width: 75%;
+  }
+
+  .button-small {
+    padding: 10px 48px;
+  }
+  .reviews-one,
+  .reviews-two {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
 }
 
 @media (max-width: 480px) {
@@ -87,6 +107,8 @@
     margin: 12px 0;
   }
 
-  .reviews-one, .reviews-two {
+  .reviews-one,
+  .reviews-two {
     grid-template-columns: 1fr 1fr 1fr;
+  }
 }
