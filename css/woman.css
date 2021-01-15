@@ -15,9 +15,10 @@ main {
 }
 
 .woman-hero h1 {
-  color: #ffffff;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
   position: absolute;
-  left: 25px;
+  padding: 10px 25px;
   top: 200px;
 }
 
