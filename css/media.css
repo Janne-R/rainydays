@@ -1,6 +1,5 @@
 @media (max-width: 800px) {
   /* Index-site*/
-
   .welcome-content h1 {
     font-size: 42px;
   }
@@ -16,14 +15,12 @@
     min-width: 200px;
   }
   /*product-list-site*/
-
   .product-list-men,
   .product-list-woman {
     grid-template-columns: repeat(2, 1fr);
   }
 
   /*product-specific page*/
-
   .product-men-section,
   .product-woman-section {
     grid-template-columns: 1fr 2fr;
@@ -41,11 +38,19 @@
   .reviews-two {
     grid-template-columns: 1fr 2fr 1fr;
   }
+
+  /*shopping-cart-page*/
+  .shopping-cart-items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .cart {
+    display: flex;
+  }
 }
 
 @media (max-width: 480px) {
   /* Index-site*/
-
   .welcome-content h1 {
     font-size: 32px;
   }
@@ -61,7 +66,6 @@
   }
 
   /*product-list-site*/
-
   .man-hero h1,
   .woman-hero h1 {
     font-size: 28px;
@@ -78,7 +82,6 @@
   }
 
   /*product-specific page*/
-
   .product-woman-section,
   .product-men-section {
     grid-template-columns: 1fr;
@@ -110,5 +113,15 @@
   .reviews-one,
   .reviews-two {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /*product-specific page*/
+  .shopping-cart-items {
+    display: block;
+  }
+
+  /*shopping-cart-page*/
+  .button-small {
+    padding: 10px 62px;
   }
 }
