@@ -31,6 +31,7 @@ a {
 
 section i,
 section h1,
-section p {
+section p,
+section a {
   padding-bottom: 25px;
 }
