@@ -23,7 +23,7 @@ main p {
   text-align: center;
 }
 
-a {
+.thankyou-text a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;

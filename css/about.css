@@ -8,7 +8,7 @@ main {
   /* background-repeat and background position x, check if needed */
   background-repeat: no-repeat;
   background-position-x: center;
-  height: 89.5vh;
+  height: 65.5vh;
   display: flex;
   align-items: center;
 }
