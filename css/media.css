@@ -53,6 +53,18 @@
   .payment-form {
     display: block;
   }
+
+  /*thankyou-purhase-page*/ /*thankyou-contact-page*/
+  .thankyou-text {
+    padding: 72px 24px;
+  }
+
+  .thankyou-text h1,
+  .thankyou-text-contact h1 {
+    font-size: 32px;
+  }
+
+  /*thankyou-contact-page*/
 }
 
 @media (max-width: 480px) {
