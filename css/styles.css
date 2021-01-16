@@ -69,6 +69,10 @@ nav a {
   text-decoration-line: none;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .current {
   text-decoration: underline;
 }
