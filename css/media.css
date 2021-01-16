@@ -99,6 +99,25 @@
   .form-wrapper {
     padding: 12px;
   }
+
+  /*login-page*/
+  .login-section {
+    grid-template-columns: 1fr;
+  }
+
+  .sign-in,
+  .create-account {
+    border-radius: 60px;
+  }
+
+  .sign-in {
+    margin-bottom: 25px;
+  }
+
+  .sign-in h2,
+  .sign-in p {
+    margin: 16px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -191,4 +210,6 @@
   .contact-form form {
     padding-bottom: 1px;
   }
+
+  /*login-page*/
 }
