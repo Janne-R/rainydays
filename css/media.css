@@ -64,7 +64,10 @@
     font-size: 32px;
   }
 
-  /*thankyou-contact-page*/
+  /*about-us-page*/
+  .images-section {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -141,5 +144,14 @@
   /*shopping-cart-page*/
   .button-small {
     padding: 10px 62px;
+  }
+
+  /*about-us-page*/
+  .images-section {
+    display: none;
+  }
+
+  .about-hero h1 {
+    font-size: 28px;
   }
 }
