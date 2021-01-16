@@ -8,7 +8,7 @@ main {
 .payment-form {
   background: #dddddd;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
 }
 
 .checkout-details h1,
@@ -53,6 +53,21 @@ main {
 
 .one-line {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.one-line-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.one-line :first-child {
+  margin-right: 5px;
+}
+
+.one-line div {
+  display: flex;
+  flex-direction: column;
 }
 
 .button-small {

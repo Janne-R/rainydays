@@ -14,6 +14,7 @@
     padding: 16px 0;
     min-width: 200px;
   }
+
   /*product-list-site*/
   .product-list-men,
   .product-list-woman {
@@ -46,6 +47,11 @@
 
   .cart {
     display: flex;
+  }
+
+  /*checkout-page*/
+  .payment-form {
+    display: block;
   }
 }
 
