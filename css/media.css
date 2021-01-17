@@ -145,16 +145,21 @@
 
   .mobile-nav {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
   }
 
   .fav-and-shopping {
     display: flex;
+    align-items: flex-end;
     margin-left: 0;
   }
 
   .fav-and-shopping li:first-child {
     padding-left: 0;
+  }
+
+  .fav-and-shopping a:first-child {
+    padding: 0;
   }
 
   .fav-and-shopping li:last-child {
