@@ -136,8 +136,8 @@
 
   .burger-menu {
     display: none;
-    position: fixed;
-    top: 80px;
+    position: absolute;
+    top: 92px;
     background: var(--color-primary);
     z-index: 1000;
     right: 0px;
