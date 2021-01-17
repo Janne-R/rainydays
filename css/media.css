@@ -137,7 +137,6 @@
   .burger-menu {
     display: none;
     position: absolute;
-    top: 92px;
     background: var(--color-primary);
     z-index: 1000;
     right: 0px;
@@ -186,7 +185,7 @@
     display: none;
   }
 
-  #hamburger-menu:checked ~ .burger-menu {
+  #hamburger-menu:checked ~ div .burger-menu {
     display: block;
   }
 
