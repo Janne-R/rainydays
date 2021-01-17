@@ -184,6 +184,15 @@
   #hamburger-menu:checked ~ .burger-menu {
     display: block;
   }
+
+  /*footer*/
+  .footer-content {
+    flex-direction: column-reverse;
+  }
+
+  .left-content {
+    margin-top: 32px;
+  }
 }
 
 @media (max-width: 480px) {
