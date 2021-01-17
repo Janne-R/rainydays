@@ -27,7 +27,16 @@ form textarea {
   border-bottom-left-radius: 60px;
 }
 
-.sign-in h2,
+.sign-in h1 {
+  padding: 25px;
+  color: white;
+  font-size: 30px;
+}
+
+.sign-in h2 {
+  color: var(--color-secondary);
+}
+
 .sign-in p {
   margin: 28px;
   color: var(--color-secondary);
