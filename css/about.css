@@ -3,7 +3,7 @@ main {
 }
 
 .about-hero {
-  background-image: url(../images/nature.jpeg);
+  background-image: url(../images/nature-new.jpg);
   background-size: cover;
   /* background-repeat and background position x, check if needed */
   background-repeat: no-repeat;
