@@ -51,3 +51,22 @@ form textarea {
 .form-wrapper label {
   text-align: left;
 }
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+.formMessage {
+  background: green;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+button:disabled {
+  background: lightgray;
+}
