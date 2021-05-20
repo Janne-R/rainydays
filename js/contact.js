@@ -95,7 +95,7 @@ const validateForm = () => {
   } else {
     button.disabled = true;
   }
-}
+};
 
 fullName.addEventListener("keyup", validateForm);
 email.addEventListener("keyup", validateForm);
