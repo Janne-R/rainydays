@@ -36,6 +36,7 @@ main {
 
 .product-info-woman p {
   color: var(--color-primary);
+  margin-top: 0px;
 }
 
 .product-info-woman i {

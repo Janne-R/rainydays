@@ -1,0 +1,51 @@
+export const productArray = [
+  {
+    name: "Helly Hansen 1",
+    description: "Windbreaker jacket",
+    detailDescription: "Waterproof and windproof rainjacket for men. Perfect for hiking and outdoor use. Comes in two colors.",
+    image: "/images/men portrait.png",
+    id: "1",
+    price: 199,
+  },
+  {
+    name: "Helly Hansen 2",
+    description: "Windbreaker jacket",
+    detailDescription: "Waterproof and windproof rainjacket for men. Perfect for hiking and outdoor use. Comes in two colors.",
+    image: "/images/men portrait.png",
+    id: "2",
+    price: 199,
+  },
+  {
+    name: "Helly Hansen 3",
+    description: "Windbreaker jacket",
+    detailDescription: "Waterproof and windproof rainjacket for men. Perfect for hiking and outdoor use. Comes in two colors.",
+    image: "/images/men portrait.png",
+    id: "3",
+    price: 199,
+  },
+  {
+    name: "Helly Hansen 4",
+    description: "Windbreaker jacket",
+    detailDescription: "Waterproof and windproof rainjacket for men. Perfect for hiking and outdoor use. Comes in two colors.",
+    image: "/images/men portrait.png",
+    id: "4",
+    price: 199,
+  },
+  {
+    name: "Helly Hansen 5",
+    description: "Windbreaker jacket",
+    detailDescription: "Waterproof and windproof rainjacket for men. Perfect for hiking and outdoor use. Comes in two colors.",
+    image: "/images/men portrait.png",
+    id: "5",
+    price: 199,
+  },
+  {
+    name: "Helly Hansen 6",
+    description: "Windbreaker jacket",
+    detailDescription: "Waterproof and windproof rainjacket for men. Perfect for hiking and outdoor use. Comes in two colors.",
+    image: "/images/men portrait.png",
+    id: "6",
+    price: 199,
+  },
+
+];
