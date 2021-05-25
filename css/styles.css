@@ -79,6 +79,11 @@ nav a {
   text-decoration-line: none;
 }
 
+.fa-bars,
+#hamburger-menu {
+  display: none;
+}
+
 .fav-and-shopping {
   display: flex;
   justify-content: space-between;
@@ -88,15 +93,7 @@ nav a {
   display: none;
 }
 
-#search-overlay-mobile {
-  display: none;
-}
-
 #search-overlay:checked ~ .search-overlay {
-  display: flex;
-}
-
-#search-overlay-mobile:checked ~ .search-overlay {
   display: flex;
 }
 
@@ -130,10 +127,6 @@ nav a {
 .searchbar input {
   width: 40vw;
   height: 5vw;
-}
-
-.mobile-nav {
-  display: none;
 }
 
 .current {

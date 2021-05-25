@@ -142,7 +142,7 @@
     right: 0px;
   }
 
-  .mobile-nav {
+  .desktop-nav {
     display: flex;
     align-items: flex-end;
   }
@@ -181,8 +181,8 @@
     padding: 20px 30px;
   }
 
-  #hamburger-menu {
-    display: none;
+  .fa-bars {
+    display: block;
   }
 
   #hamburger-menu:checked ~ div .burger-menu {
