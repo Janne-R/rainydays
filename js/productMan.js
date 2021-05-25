@@ -1,4 +1,6 @@
 import { productArray } from "./constants/productArray.js";
+import { addToCart } from "./components/shoppingCart.js";
+
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
@@ -65,37 +67,4 @@ detailContainer.innerHTML =
 </div>
 `;
 
-
-let cartArrey = [];
-
-const cart = document.querySelector(".cart");
-const cartList = document.querySelector(".cart-list");
-const totalContainer = document.querySelector(".total");
-const button = document.querySelector("button");
-
-
-button.onclick = function (event) {
-  event.preventDefault();
-  cartArrey.push(product);
-  showCart(cartArrey);
-  localStorage.setItem("cartList", JSON.stringify(cartArrey));
-}
-
-
-function showCart(cartItems) {
-  cart.style.display = "block";
-  cartList.innerHTML = "";
-  let total = 0;
-  cartItems.forEach(function (cartElement) {
-    total += cartElement.price;
-    cartList.innerHTML +=
-      `
-    <div class="cart-item">
-    <h4>${cartElement.name}</h4>
-    <div style="background-image: url('${cartElement.image}')" class="cart-image"></div>
-    </div>
-    `
-  })
-
-  totalContainer.innerHTML = `total:${total}`;
-}
+addToCart(product);
