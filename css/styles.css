@@ -225,6 +225,7 @@ footer input::placeholder {
   bottom: 200px;
   display: none;
   background: white;
+  color: black;
 }
 
 .cart-image {

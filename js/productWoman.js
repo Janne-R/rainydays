@@ -40,7 +40,7 @@ detailContainer.innerHTML =
   <p>(2)</p>
 </div>
 <section>
-  <form action="cart-woman.html">
+  <form>
     <div class="man-size">
       <label for="size">Choose a size:</label>
       <select id="size" name="size">

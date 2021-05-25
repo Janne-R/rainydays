@@ -7,18 +7,31 @@ function getCartItems() {
   }
 }
 
+
+
+
 export function addToCart(product) {
 
   const cartArray = getCartItems();
 
-  const button = document.querySelector("button");
+  const form = document.querySelector("form");
 
-  button.onclick = function (event) {
+  function submitForm(event) {
     event.preventDefault();
+
+    const size = document.querySelector("#size");
+    const color = document.querySelector("input[type='radio'][name='color']:checked");
+
+    product.size = size.value;
+    product.color = color.value;
+
     cartArray.push(product);
     showCart(cartArray);
     localStorage.setItem("cartList", JSON.stringify(cartArray));
+
   }
+
+  form.addEventListener("submit", submitForm);
 
 }
 
@@ -37,6 +50,7 @@ function showCart(cartItems) {
   <div class="cart-item">
   <h4>${cartElement.name}</h4>
   <div style="background-image: url('${cartElement.image}')" class="cart-image"></div>
+  <p>Size: ${cartElement.size} Color: ${cartElement.color}</p>
   </div>
   `
   })
