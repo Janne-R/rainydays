@@ -130,6 +130,11 @@
     justify-content: space-between;
   }
 
+  .header-nav {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .desktop-nav {
     display: none;
   }
@@ -145,6 +150,10 @@
   .desktop-nav {
     display: flex;
     align-items: flex-end;
+  }
+
+  .header-search {
+    display: none;
   }
 
   .fav-and-shopping {
