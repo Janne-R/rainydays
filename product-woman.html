@@ -66,54 +66,12 @@
     </div>
   </header>
   <main>
-    <section class="product-woman-section">
-      <div class="product-img-woman">
-        <img src="images/pink-jacket-removebg-preview.png" alt="Pink womans rain jacket" />
-      </div>
-      <div class="product-info-woman">
-        <div class="primary-info">
-          <h1>Helly Hansen</h1>
-          <p>Hiking jacket for woman</p>
-        </div>
-        <div class="secendary-info">
-          <p>Waterproof and windproof rain jacket for woman.</p>
-          <p>Perfect for hiking and outdoor use. Comes in two colors</p>
-        </div>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <p>(2)</p>
-        </div>
-        <section>
-          <form action="cart-woman.html">
-            <div class="man-size">
-              <label for="size">Choose a size:</label>
-              <select id="size" name="size">
-                <option value="s">S</option>
-                <option value="m">M</option>
-                <option value="l" selected>L</option>
-                <option value="xl">XL</option>
-                <option value="xxl">XXL</option>
-              </select>
-            </div>
-            <div class="woman-color">
-              <div class="pink-color">
-                <input type="radio" id="pink" name="color" value="pink" />
-                <label for="pink">Pink</label>
-              </div>
-              <div class="Purple-color">
-                <input type="radio" id="purple" name="color" value="purple" />
-                <label for="purple">Purple</label>
-              </div>
-            </div>
-            <input class="button-small" type="submit" value="Add to bag" />
-          </form>
-        </section>
-      </div>
-    </section>
+    <section class="product-woman-section"> </section>
+    <div class="cart">
+      <div class="cart-list"></div>
+      <div class="total">Total:</div>
+      <a href="checkout.html">Checkout</a>
+    </div>
     <section class="reviews">
       <h2>Reviews (2)</h2>
       <div class="reviews-bar">
@@ -179,6 +137,7 @@
       </div>
     </div>
   </footer>
+  <script type="module" src="js/productWoman.js"></script>
 </body>
 
 </html>

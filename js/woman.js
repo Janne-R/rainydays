@@ -5,7 +5,7 @@ productArray.forEach(function (product) {
   if (product.type === "woman") {
     productListWoman.innerHTML +=
       `
-<a class="products-woman" href="product-man.html?id=${product.id}">
+<a class="products-woman" href="product-woman.html?id=${product.id}">
           <img src="${product.image}" alt="Blue mens rainjacket" />
           <h2>${product.name}</h2>
           <p>${product.description}</p>
