@@ -1,11 +1,11 @@
 import { productArray } from "./constants/productArray.js";
-const productListMen = document.querySelector(".product-list-men");
+const productListWoman = document.querySelector(".product-list-woman");
 
 productArray.forEach(function (product) {
-  if (product.type === "man") {
-    productListMen.innerHTML +=
+  if (product.type === "woman") {
+    productListWoman.innerHTML +=
       `
-<a class="products-men" href="product-man.html?id=${product.id}">
+<a class="products-woman" href="product-man.html?id=${product.id}">
           <img src="${product.image}" alt="Blue mens rainjacket" />
           <h2>${product.name}</h2>
           <p>${product.description}</p>
@@ -14,6 +14,3 @@ productArray.forEach(function (product) {
 `
   }
 })
-
-
-
