@@ -25,6 +25,7 @@ export function addToCart(product) {
     product.size = size.value;
     product.color = color.value;
 
+    // if form valid
     cartArray.push(product);
     showCart(cartArray);
     localStorage.setItem("cartList", JSON.stringify(cartArray));
@@ -50,7 +51,7 @@ function showCart(cartItems) {
   <div class="cart-item">
   <h4>${cartElement.name}</h4>
   <div style="background-image: url('${cartElement.image}')" class="cart-image"></div>
-  <p>Size: ${cartElement.size} Color: ${cartElement.color}</p>
+  <p>Size: ${cartElement.size.toUpperCase()} Color: ${cartElement.color}</p>
   </div>
   `
   })
