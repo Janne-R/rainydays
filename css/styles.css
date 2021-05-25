@@ -211,4 +211,5 @@ footer input::placeholder {
   padding: 10px 100px;
   color: var(--color-secondary);
   text-transform: uppercase;
+  border: solid white 0.5px;
 }

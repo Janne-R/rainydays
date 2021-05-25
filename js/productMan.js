@@ -13,7 +13,7 @@ for (let i = 0; i < productArray.length; i++) {
   }
 }
 
-const detailContainer = document.querySelector(".new-section");
+const detailContainer = document.querySelector(".product-men-section");
 
 detailContainer.innerHTML =
   `
@@ -59,7 +59,7 @@ detailContainer.innerHTML =
     <label for="green">Green</label>
   </div>
 </div>
-<button data-product="${product.id}">Add to cart</button>
+<button class="button-small" data-product="${product.id}">Add to cart</button>
 </form>
   </section>
 </div>

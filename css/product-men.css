@@ -37,6 +37,7 @@ main {
 .product-info-men p {
   color: var(--color-primary);
   margin-top: 0px;
+  margin-right: 10px;
 }
 
 .product-info-men i {

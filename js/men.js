@@ -1,8 +1,8 @@
 import { productArray } from "./constants/productArray.js";
-const productListMen2 = document.querySelector(".new");
+const productListMen = document.querySelector(".product-list-men");
 
 productArray.forEach(function (product) {
-  productListMen2.innerHTML +=
+  productListMen.innerHTML +=
     `
 <a class="products-men" href="product-man.html?id=${product.id}">
           <i class="fas fa-heart"></i>
