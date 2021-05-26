@@ -188,6 +188,7 @@
 
   .fas.fa-bars {
     display: block;
+    cursor: pointer;
   }
 
   #hamburger-menu:checked ~ div .burger-menu {
