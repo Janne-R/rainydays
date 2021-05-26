@@ -60,6 +60,7 @@ detailContainer.innerHTML =
         <input type="radio" id="purple" name="color" value="purple" />
         <label for="purple">Purple</label>
       </div>
+      <div class="form-error" id="colorError">Please select a color</div>
     </div>
     <button class="button-small" data-product="${product.id}">Add to cart</button>
   </form>
