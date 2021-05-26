@@ -17,4 +17,3 @@ cartItems.forEach(function (product) {
 
 })
 totalContainer.innerHTML = `Total: $ ${total}`;
-console.log(cartItems);
