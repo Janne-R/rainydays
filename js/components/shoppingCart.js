@@ -7,9 +7,6 @@ function getCartItems() {
   }
 }
 
-
-
-
 export function addToCart(product) {
 
   const cartArray = getCartItems();

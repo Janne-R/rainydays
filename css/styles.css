@@ -215,14 +215,10 @@ footer input::placeholder {
 }
 
 .cart {
-  border: 1px solid green;
-  max-width: 600px;
+  border: 1px solid var(--color-primary);
   min-width: 200px;
   padding: 20px;
-  margin: auto;
-  position: fixed;
-  left: 50px;
-  bottom: 200px;
+  position: absolute;
   display: none;
   background: white;
   color: black;
@@ -245,4 +241,9 @@ footer input::placeholder {
   color: white;
   border-radius: 1rem;
   margin-bottom: 1rem;
+}
+
+.productSection {
+  display: flex;
+  flex-flow: row-reverse;
 }
