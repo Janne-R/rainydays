@@ -138,6 +138,10 @@ nav a {
   text-decoration: none;
 }
 
+label[for="search-overlay"] {
+  cursor: pointer;
+}
+
 ul {
   margin-block-end: auto;
 }
