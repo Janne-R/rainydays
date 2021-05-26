@@ -9,11 +9,12 @@ cartItems.forEach(function (product) {
     `
   <div class="cart-item">
   <h4>${product.name}</h4>
-  <div style="background-image: url('${product.image}')" class="cart-image"</div>
-  <p>Size: ${product.size.toUpperCase()} Color: ${product.color}</p>
+  <div style="background-image: url('${product.image}')" class="cart-image"></div>
+  <p>Size: ${product.size.toUpperCase()}</p>
+  <p>Color: ${product.color}</p>
   </div>
   `
 
 })
-totalContainer.innerHTML = `total:${total}`;
+totalContainer.innerHTML = `Total: $ ${total}`;
 console.log(cartItems);

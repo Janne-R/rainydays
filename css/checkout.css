@@ -16,9 +16,15 @@ main {
 }
 
 .checkout-details h1,
-.checkout-details h2 {
+.checkout-details h2,
+.cart-details h1 {
   text-align: center;
   font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.total {
+  text-align: center;
   margin-bottom: 10px;
 }
 

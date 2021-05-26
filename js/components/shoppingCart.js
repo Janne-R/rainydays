@@ -45,13 +45,14 @@ function showCart(cartItems) {
     total += cartElement.price;
     cartList.innerHTML +=
       `
-  <div class="cart-item">
+  <div>
   <h4>${cartElement.name}</h4>
   <div style="background-image: url('${cartElement.image}')" class="cart-image"></div>
-  <p>Size: ${cartElement.size.toUpperCase()} Color: ${cartElement.color}</p>
+  <p>Size: ${cartElement.size.toUpperCase()}</p>
+  <p>Color: ${cartElement.color}</p>
   </div>
   `
   })
 
-  totalContainer.innerHTML = `total:${total}`;
+  totalContainer.innerHTML = `Total: $ ${total}`;
 }

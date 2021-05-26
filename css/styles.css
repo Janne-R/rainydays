@@ -247,3 +247,8 @@ footer input::placeholder {
   display: flex;
   flex-flow: row-reverse;
 }
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
