@@ -203,10 +203,11 @@ footer input::placeholder {
   color: var(--color-secondary);
 }
 
-/*input[type="submit"] {
-  color: var(--color-secondary);
-  text-transform: uppercase;
-}*/
+input[type="submit"],
+input[type="radio"],
+#size {
+  cursor: pointer;
+}
 
 .button-small {
   margin-bottom: 25px;
@@ -216,6 +217,7 @@ footer input::placeholder {
   color: var(--color-secondary);
   text-transform: uppercase;
   border: solid white 0.5px;
+  cursor: pointer;
 }
 
 .cart {
