@@ -203,6 +203,11 @@
   .left-content {
     margin-top: 32px;
   }
+
+  /*cart*/
+  .cart-item {
+    display: block;
+  }
 }
 
 @media (max-width: 480px) {

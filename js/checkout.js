@@ -12,8 +12,9 @@ cartItems.forEach(function (product) {
   <div style="background-image: url('${product.image}')" class="cart-image"></div>
   <p>Size: ${product.size.toUpperCase()}</p>
   <p>Color: ${product.color}</p>
+  <p>Price: $ ${product.price},-</p>
   </div>
   `
 
 })
-totalContainer.innerHTML = `Total: $ ${total}`;
+totalContainer.innerHTML = `Total: $ ${total},-`;
