@@ -52,13 +52,6 @@ form textarea {
   text-align: left;
 }
 
-.form-error {
-  display: none;
-  color: red;
-  font-size: 0.9rem;
-  margin-top: 2px;
-}
-
 .formMessage {
   background: green;
   padding: 1rem;
