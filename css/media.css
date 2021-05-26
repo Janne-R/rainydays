@@ -45,10 +45,6 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .cart {
-    display: flex;
-  }
-
   /*checkout-page*/
   .payment-form {
     display: block;

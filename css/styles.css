@@ -238,3 +238,11 @@ footer input::placeholder {
 .total {
   color: black;
 }
+
+.errorColor {
+  background: green;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
