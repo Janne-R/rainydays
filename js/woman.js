@@ -36,12 +36,16 @@ async function callApi() {
 const products = await callApi();
 
 products.forEach(function (result) {
-  productListWoman.innerHTML += `<a class="products-woman" href="product-woman.html?id=${result.id}">
-  <img src="${result.images[0].src}" alt="rainjacket" />
-  <h2>${result.name}</h2>
-  <p>${result.short_description}</p>
-  <p>$${result.prices.price}</p>
-</a>`;
+  if (result.categories[0].id === 17) {
+    productListWoman.innerHTML +=
 
+      `<a class="products-woman" href="product-woman.html?id=${result.id}">
+      <img src="${result.images[0].src}" alt="rainjacket" />
+      <h2>${result.name}</h2>
+      <p>${result.short_description}</p>
+      <p>$${result.prices.price}</p>
+  </a>`;
+
+  }
 });
 
