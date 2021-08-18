@@ -19,7 +19,7 @@ productArray.forEach(function (product) {
 const productListMen = document.querySelector(".product-list-men");
 const url = "https://rainydays.janne-ringdal.one/wp-json/wc/store/products/?per_page=20";
 
-async function callApi() {
+async function getProducts() {
   try {
     const response = await fetch(url);
     const json = await response.json();
@@ -33,7 +33,8 @@ async function callApi() {
   }
 }
 
-const products = await callApi();
+
+const products = await getProducts();
 
 products.forEach(function (result) {
   if (result.categories[0].id === 16) {
