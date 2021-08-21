@@ -1,5 +1,5 @@
 /*import { productArray } from "./constants/productArray.js";
-import { addToCart } from "./components/shoppingCart.js";
+
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
@@ -71,6 +71,7 @@ detailContainer.innerHTML =
 
 addToCart(product);*/
 
+import { addToCart } from "./components/shoppingCart.js";
 const detailContainer = document.querySelector(".product-woman-section");
 
 const queryString = document.location.search;
@@ -90,8 +91,10 @@ async function getProduct() {
     console.log(details);
 
     createHtml(details);
+    addToCart(details);
 
   } catch (error) {
+    console.error(error);
     detailContainer.innerHTML = "error";
   }
 

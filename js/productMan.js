@@ -1,20 +1,5 @@
 
-//import { addToCart } from "./components/shoppingCart.js";
-
-
-
-/*let product = {};
-
-for (let i = 0; i < productArray.length; i++) {
-  if (productArray[i].id === id) {
-    product = productArray[i];
-  }
-}
-
-
-
-
-addToCart(product);*/
+import { addToCart } from "./components/shoppingCart.js";
 
 
 
@@ -37,6 +22,7 @@ async function getProduct() {
     console.log(details);
 
     createHtml(details);
+    addToCart(details);
 
   } catch (error) {
     detailContainer.innerHTML = "error";

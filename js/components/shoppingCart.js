@@ -50,15 +50,15 @@ function showCart(cartItems) {
   cartList.innerHTML = "";
   let total = 0;
   cartItems.forEach(function (cartElement) {
-    total += cartElement.price;
+    total += parseInt(cartElement.prices.price);
     cartList.innerHTML +=
       `
   <div class="shoppingCartItem">
   <h4>${cartElement.name}</h4>
-  <div style="background-image: url('${cartElement.image}')" class="cart-image"></div>
+  <div style="background-image: url('${cartElement.images[0].src}')" class="cart-image"></div>
   <p>Size: ${cartElement.size.toUpperCase()}</p>
   <p>Color: ${cartElement.color}</p>
-  <p>Price: $ ${cartElement.price},-</p>
+  <p>Price: $ ${cartElement.prices.price},-</p>
   </div>
   `
   })
