@@ -104,6 +104,7 @@ getProduct();
 
 
 function createHtml(details) {
+  document.querySelector(".loader").style.display = "none";
   detailContainer.innerHTML = `
   <div class="product-img-woman">
   <img src="${details.images[0].src}" alt="${details.name}">

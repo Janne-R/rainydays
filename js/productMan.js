@@ -39,6 +39,7 @@ const createHtml2 = details => {
 
 
 function createHtml(details) {
+  document.querySelector(".loader").style.display = "none";
   detailContainer.innerHTML = `
   <div class="product-img-men">
   <img src="${details.images[0].src}" alt="${details.name}">
