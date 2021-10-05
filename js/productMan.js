@@ -32,6 +32,11 @@ async function getProduct() {
 
 getProduct();
 
+/*arrow function
+const createHtml2 = details => {
+  
+}*/
+
 
 function createHtml(details) {
   detailContainer.innerHTML = `

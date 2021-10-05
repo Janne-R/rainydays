@@ -34,6 +34,7 @@ async function callApi() {
 }
 
 const products = await callApi();
+document.querySelector(".loader").style.display = "none";
 
 products.forEach(function (result) {
   if (result.categories[0].id === 17) {

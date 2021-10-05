@@ -35,6 +35,7 @@ async function getProducts() {
 
 
 const products = await getProducts();
+document.querySelector(".loader").style.display = "none";
 
 products.forEach(function (result) {
   if (result.categories[0].id === 16) {
