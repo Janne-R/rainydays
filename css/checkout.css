@@ -75,7 +75,7 @@ main {
   margin-right: 5px;
 }
 
-.one-line div {
+.one-line > div {
   display: flex;
   flex-direction: column;
 }

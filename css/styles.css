@@ -304,3 +304,7 @@ input[type="radio"],
     transform: rotate(360deg);
   }
 }
+
+button:disabled {
+  background: lightgray;
+}
