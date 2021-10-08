@@ -40,7 +40,12 @@ h2 {
 
 header {
   background-color: #0c3642;
+}
+
+.header-content {
   color: var(--color-secondary);
+  max-width: 1000px;
+  margin: 0 auto;
   display: grid;
   align-items: flex-end;
   grid-template-columns: 1fr 3fr;
