@@ -1,4 +1,4 @@
-//Sign in modal
+//modal
 const modal = document.querySelector(".modal");
 const closeButton = document.querySelector(".close");
 const buttonSignIn = document.querySelector(".button-sign-in");
@@ -17,6 +17,62 @@ window.onclick = function (event) {
   }
 }
 
+//Sign in
+
+const LogInForm = document.querySelector(".logInForm");
+const userName = document.querySelector("#userName");
+const userNameError = document.querySelector("#userNameError");
+const passwordLogIn = document.querySelector("#passwordLogIn");
+const passwordLogInError = document.querySelector("#passwordLogInError");
+const buttonLogIn = document.querySelector(".button-login");
+
+function checkLength(value, len) {
+  if (value.trim().length > len) {
+    return true;
+  } else
+    return false;
+}
+
+const userNameValidate = () => {
+  if (checkLength(userName.value, 0)) {
+    userNameError.style.display = "none";
+    return true;
+  } else {
+    userNameError.style.display = "block";
+    return false;
+  }
+};
+
+const passwordLogInValidate = () => {
+  if (checkLength(passwordLogIn.value, 7)) {
+    passwordLogInError.style.display = "none";
+    return true;
+  } else {
+    passwordLogInError.style.display = "block";
+    return false;
+  }
+};
+
+const validateLogInForm = () => {
+  if (userNameValidate() && passwordLogInValidate()) {
+    buttonLogIn.disabled = false;
+  } else {
+    buttonLogIn.disabled = true;
+  }
+};
+
+userName.addEventListener("keyup", validateLogInForm);
+passwordLogIn.addEventListener("keyup", validateLogInForm);
+
+
+function submitLogIn(event) {
+  event.preventDefault();
+  location.href = "is-logged-in.html";
+  form.reset();
+}
+
+buttonLogIn.addEventListener("click", submitLogIn);
+
 
 //Create Account
 const form = document.querySelector("form");
@@ -26,14 +82,7 @@ const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 const password = document.querySelector("#password");
 const passwordError = document.querySelector("#passwordError");
-const button = document.querySelector(".button-login")
-
-function checkLength(value, len) {
-  if (value.trim().length > len) {
-    return true;
-  } else
-    return false;
-}
+const buttonSignUp = document.querySelector(".button-signup")
 
 function validateEmail(email) {
   const regEx = /\S+@\S+\.\S+/;
@@ -73,9 +122,9 @@ const passwordValidate = () => {
 
 const validateForm = () => {
   if (nameValidate() && emailValidate() && passwordValidate()) {
-    button.disabled = false;
+    buttonSignUp.disabled = false;
   } else {
-    button.disabled = true;
+    buttonSignUp.disabled = true;
   }
 };
 
@@ -91,4 +140,4 @@ function submitForm(event) {
 }
 
 
-button.addEventListener("click", submitForm);
+buttonSignUp.addEventListener("click", submitForm);

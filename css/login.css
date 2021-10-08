@@ -71,6 +71,10 @@ form textarea {
   margin: 0 auto;
 }
 
+.wrapper-sign-in input {
+  color: var(--color-primary);
+}
+
 .form-wrapper label {
   text-align: left;
 }
@@ -111,24 +115,7 @@ form textarea {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.modal-content {
-  margin: auto;
-  display: block;
-  max-width: 100%;
-}
-
-.caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: var(--color-white);
-  padding: 10px 0;
-}
-
-.modal-content,
-.caption {
+.modal {
   animation-name: zoom;
   animation-duration: 0.6s;
 }

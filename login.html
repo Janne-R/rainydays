@@ -59,7 +59,18 @@
       <section class="sign-in">
         <div class="modal">
           <button class="close"><i class="fas fa-times"></i></button>
-
+          <form class="logInForm">
+            <div class="form-wrapper wrapper-sign-in">
+              <label for="userName">User Name</label>
+              <input type="text" id="userName" name="UserName">
+              <div class="form-error" id="userNameError">Please enter your full name</div>
+              <label for="password">Password</label>
+              <input type="password" id="passwordLogIn" name="password">
+              <div class="form-error" id="passwordLogInError">Your password must be atleast 8 characters
+              </div>
+            </div>
+            <button disabled class="button-small button-login">Submit</button>
+          </form>
         </div>
         <h1>Welcome back!</h1>
         <p>We are happy to have you as our customer. Please sign in to your personal account to check in on your orders.
@@ -85,7 +96,7 @@
             <div class="form-error" id="passwordError">Your password must be atleast 8 characters
             </div>
           </div>
-          <button disabled class="button-small button-login">Submit</button>
+          <button disabled class="button-small button-signup">Submit</button>
         </form>
       </section>
     </section>
